@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Learn Web Development</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Learn Web Development</h1>
+    <p>A simple interactive website for beginners</p>
+</header>
+
+<main class="container">
+
+    <!-- Progress -->
+    <section class="card">
+        <h2>Your Progress</h2>
+
+        <div class="progress-box">
+            <div class="progress" id="progress"></div>
+        </div>
+
+        <p id="progressText">0 of 3 completed</p>
+    </section>
+
+
+    <!-- HTML -->
+    <section class="card">
+        <h2>1. HTML</h2>
+
+        <p>
+            HTML is used to create the structure of a webpage.
+        </p>
+
+        <button id="htmlButton">
+            Show Example
+        </button>
+
+        <div class="answer" id="htmlAnswer">
+            <strong>HTML = Structure</strong>
+
+            <p>
+                HTML creates headings, paragraphs, buttons,
+                links, forms, and sections.
+            </p>
+
+            <code>&lt;h1&gt;Hello World&lt;/h1&gt;</code>
+        </div>
+    </section>
+
+
+    <!-- CSS -->
+    <section class="card">
+        <h2>2. CSS</h2>
+
+        <p>
+            CSS is used to make a webpage look beautiful.
+        </p>
+
+        <button id="cssButton">
+            Show Example
+        </button>
+
+        <div class="answer" id="cssAnswer">
+            <strong>CSS = Design</strong>
+
+            <p>
+                CSS controls colors, fonts, spacing,
+                borders, and layouts.
+            </p>
+
+            <code>color: blue;</code>
+        </div>
+    </section>
+
+
+    <!-- JavaScript -->
+    <section class="card">
+        <h2>3. JavaScript</h2>
+
+        <p>
+            JavaScript makes websites interactive.
+        </p>
+
+        <button id="jsButton">
+            Try Interaction
+        </button>
+
+        <div class="answer" id="jsAnswer">
+            <strong>JavaScript = Interaction</strong>
+
+            <p>
+                JavaScript can respond to clicks,
+                change text, create animations, and handle forms.
+            </p>
+
+            <button id="counterButton">
+                Clicked 0 times
+            </button>
+        </div>
+    </section>
+
+
+    <!-- Complete -->
+    <section class="card complete">
+        <h2>Finish the Lesson</h2>
+
+        <p>
+            Complete all three sections to finish.
+        </p>
+
+        <button id="resetButton">
+            Reset Lesson
+        </button>
+
+        <p id="done"></p>
+    </section>
+
+</main>
+
+
+<footer>
+    <p>Made for beginners learning web development</p>
+</footer>
+
+
+<!-- JavaScript file -->
+<script src="script.js"></script>
+
+</body>
+</html>
